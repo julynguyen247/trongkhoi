@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title"></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="https://freepngimg.com/download/gift/22649-9-birthday-gift.png">
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/global/confetti.js"></script>
+</head>
+
+<body>
+    <div class="heart-container"></div> <!-- Đây là nơi tạo mưa tim -->
+
+    <div class="letter-close">
+        <div class="envelope" onclick="open_letter()"></div>
+        <h2 class="envelope-msg">
+            <span id="close-envelope-message"></span>
+        </h2>
+    </div>
+    <div class="letter-open">
+        <div class="rtan"></div>
+        <h1 id="envelope-header"></h1>
+        <div class="messagebox">
+            <span id="message-line1"></span> <br>
+            <span id="message-line2"></span> <br>
+            <span id="message-line3"></span> <br>
+            <span id="message-line4"></span> <br>
+            <span id="message-line5" style="width: 20px;"></span> <br>
+            <div id="anh">
+                <img id="anhkhoi" src="./assets/1cf0cdd8-73db-4563-8f52-660b926d9ecf.jpg" >
+            </div>
+            <br>
+            <p>Love,</p>
+            <span id="sender-name"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
+    <script src="assets/heart-rain.js"></script> <!-- Script hiệu ứng mưa tim -->
+</body>
+
+</html>

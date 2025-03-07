@@ -1,0 +1,113 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    background-color: #e8344e;
+}
+
+.envelope {
+    background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 200px auto 0px auto;
+    cursor: pointer;
+}
+
+.envelope-msg {
+    color: white;
+    text-align: center;
+}
+
+.letter-close {
+    display: block;
+}
+
+.letter-open {
+    display: none;
+}
+
+.rtan {
+    width: 200px;
+    height: 200px;
+    background-image: url('./R.gif');
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    margin: 100px auto 0px auto;
+    border-radius: 100px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 0px white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.messagebox {
+    width: 400px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: ivory;
+    color: brown;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px white;
+}
+
+@media screen and (max-width: 760px) {
+    .messagebox {
+        width: 300px;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px;
+    }
+    .rtan {
+        width: 150px;
+        height: 150px;
+        margin: 70px auto 0px auto;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .envelope {
+        margin: 150px auto 0px auto;
+    }
+}
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10vh);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(80vh);
+        opacity: 0;
+    }
+}
+#anhkhoi{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+#anh{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
