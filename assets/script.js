@@ -42,6 +42,7 @@ function createHeart() {
     heart.remove();
   }, 5000);
 }
+setInterval(createHeart, 200);
 
 // Tạo mưa tim liên tục
 function Khoi() {
